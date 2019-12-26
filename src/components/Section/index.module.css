@@ -1,0 +1,12 @@
+.section-container {
+  width: 90vw;
+  max-width: 600px;
+  display: flex;
+  justify-content: column;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--secondary-color);
+  margin: 0 auto;
+  min-height: 500px;
+  position: relative;
+}

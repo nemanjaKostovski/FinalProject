@@ -1,0 +1,22 @@
+.user-container {
+  width: 90vw;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.item{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  min-height: 40px;
+}
+
+.item > div {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.2em;
+}

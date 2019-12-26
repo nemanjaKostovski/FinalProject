@@ -1,0 +1,26 @@
+.message-container {
+  min-height: 80px;
+  width: 100%;
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.inner-container {
+  display: flex;
+  justify-content: space-between;
+  min-height: 30px;
+  color: #fff;
+}
+
+.user {
+  cursor: pointer;
+}
+
+.message {
+  background-color: var(--tertiary-color);
+  min-height: 30px;
+  color: var(--primary-text-color);
+  text-align: center;
+}

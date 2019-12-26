@@ -1,0 +1,19 @@
+.user-container {
+  width: 90vw;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 200px;
+}
+
+.error {
+  font-size: 1.4em;
+  font-weight: bolder;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+}

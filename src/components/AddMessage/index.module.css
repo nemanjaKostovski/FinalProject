@@ -1,0 +1,23 @@
+.addMessage {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.addMessage > button {
+  margin: 0 auto;
+  height: 40px;
+  width: 70%;
+  max-width: 300px;
+}
+
+.addMessage > textarea {
+  padding: 15px;
+  min-height: 150px;
+  resize: none;
+}
+
+.addMessage > * {
+  margin-bottom: 20px;
+}

@@ -1,23 +1,20 @@
-import React, { useState } from 'react';
-import Header from './layout/Header';
-import Footer from './layout/Footer';
-import { BrowserRouter as Router } from 'react-router-dom';
-import Content from './layout/Content';
+import React from 'react';
+import { routes } from './routes';
+import { 
+  Route,
+  Switch,
+} from 'react-router-dom';
 
-
-
-
-const App = () => {
-  const [user,setUser] = useState()
-  return (
-    <>
-    <Router>
-      <Header user={user} logedIn={user} setUser={setUser}/>
-      <Content setUser={setUser} user={user}/>
-      <Footer />
-    </Router>
-    </>
-  )
-}
-
-export default App;
+export default () => (
+  console.log("about to switch") ||
+  <Switch>
+    {routes.map((route, index) => (
+      <Route 
+        exact={route.exact}
+        key={index}
+        path={route.path}
+        component={route.component}
+      />
+    ))}
+  </Switch>
+);

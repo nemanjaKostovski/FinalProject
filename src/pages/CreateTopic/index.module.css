@@ -1,0 +1,46 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.form > * {
+  margin-bottom: 15px;
+}
+
+.form > input {
+  padding-left: 10px;
+  margin-bottom: 10px;
+  height: 40px;
+  border-radius: 5px 10px;
+  font-size: 1.1em;
+}
+
+.form > label {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+.form > button {
+  margin: 0 auto;
+  height: 40px;
+  width: 70%;
+  max-width: 300px;
+}
+
+.message {
+  width: 100%;
+  text-align: center;
+  min-height: 30px;
+  background-color: var(--primary-color);
+  border: 2px solid #fff;
+  border-radius: 5px 10px; 
+  position: absolute;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.2em;
+  top: 0;
+  left: 0;
+  transform: translateY(-100%);
+}

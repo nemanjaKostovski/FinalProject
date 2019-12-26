@@ -1,0 +1,17 @@
+:root {
+ --primary-color: #202040;
+ --secondary-color: #232342;
+ --tertiary-color: #2b2b4f;
+
+ --primary-text-color: #617be3;
+ --primary-text-color-active: #9aceff;
+
+ --disabled: #ccc;
+
+ --btn-primary-color: transparent;
+ --btn-primary-color-hover: #fff;
+ --btn-primary-color-text: #fff;
+ --btn-primary-color-text-hover: #000;
+
+ --error-color: #ff968f;
+}

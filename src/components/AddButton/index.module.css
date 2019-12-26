@@ -1,0 +1,21 @@
+.image{
+  height: 50px;
+  position: relative;
+  cursor: pointer;
+}
+
+.image::before {
+  content: 'Add topic';
+  width: 0;
+  height: 0;
+  position: absolute;
+  /* top: 50%;
+  left: 0;
+  translate: translateY(100%); */
+}
+
+.image:hover::before{
+  width: initial;
+  height: initial;
+  font-size: 1.1em;
+}

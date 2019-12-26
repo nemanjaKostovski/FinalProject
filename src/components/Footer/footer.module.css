@@ -1,0 +1,10 @@
+.footer-container {
+  width: 100%;
+  height: var(--footer-height);
+  background-color: var(--secondary-color);
+}
+
+.upper-footer {
+  background-color: var(--primary-color);
+  height: var(--upper-footer-height)
+}
